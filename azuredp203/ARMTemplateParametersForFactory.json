@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azuredp203"
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"FileServer2_password": {
+			"value": ""
+		},
+		"Oracle1_connectionString": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": "Integrated Security=True;Data Source=SUBHASHH-JB\\DEV;Initial Catalog=CCE_DMTA_DEV"
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "C:\\Users\\shasuruvalli\\Documents\\Destination"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "GLS\\shasuruvalli"
+		},
+		"FileServer2_properties_typeProperties_host": {
+			"value": "C:\\Attachments"
+		},
+		"FileServer2_properties_typeProperties_userId": {
+			"value": "GLS\\shasuruvalli"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "GLS\\shasuruvalli"
+		},
+		"source_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/"
+		}
+	}
+}
