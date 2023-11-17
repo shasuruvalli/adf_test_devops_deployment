@@ -1,0 +1,9 @@
+{
+	"name": "azuredp203",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d0007cd2-7cb0-47a0-9d65-d1682587ac10",
+		"tenantId": "77b16489-7168-454c-9b81-c687f6e18ceb"
+	}
+}

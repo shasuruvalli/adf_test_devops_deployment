@@ -1,0 +1,17 @@
+{
+	"name": "OracleTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Oracle1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OracleTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "PROD",
+			"table": "ICMS_ATTACHMENT"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
